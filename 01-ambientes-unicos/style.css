@@ -1,0 +1,79 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --font-family-primary: 'Open Sans', sans-serif;
+    --font-family-title:'Inter', sans-serif; 
+
+    --color-p-span: #F90;
+    --color-p: #7D7987;
+    --color-border-footer: #ECEFF2;
+
+}
+
+a{
+    font-size:1.4rem;
+    color: var(--color-p-span);
+}
+span{ 
+    color: var(--color-p-span);
+}
+ 
+
+h1{ 
+    font-family: var(--font-family-title);
+    font-size:4.9rem;
+    line-height: 4.6rem;
+    font-weight: normal;
+
+    margin-bottom: 3.2rem;
+ 
+}
+h1 span{
+    font-weight: bold;
+}
+
+body{    
+    font-family: var(--font-family-primary);
+    text-align: center;
+}
+
+#hero{
+    width:59.2rem;
+    margin: 0 auto  7.2rem ;
+
+}
+
+#hero svg{
+    margin-bottom: 7.2rem;
+}
+
+p{
+    color: var(--color-p);
+    font-size: 1.4rem;
+    line-height: 2.8rem; 
+} 
+
+#line{
+    width:59.2rem; 
+    height: 0rem;
+    margin: 0 auto .8rem; 
+    border:.1rem solid var(--color-border-footer);  
+    
+}
+
+footer a + a{
+    margin-left: 2.8rem;
+}
+
+
+ 
+#balls{
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
