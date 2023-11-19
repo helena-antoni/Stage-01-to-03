@@ -18,7 +18,7 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
       <tbody>
         <tr>
           <td>01</td>
-          <td>Movéis Costumizados</td>
+          <td>Movéis Customizados</td>
           <td>14/11/2023</td>
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/01-ambientes-unicos/">🔗</a></td>
           <td><img src="./_assets/01.jpg" alt=""> </td>
