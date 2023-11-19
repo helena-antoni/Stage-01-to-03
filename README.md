@@ -1,4 +1,4 @@
-# boracodar
+# Curso Explorer
 
 Projetos 
 
