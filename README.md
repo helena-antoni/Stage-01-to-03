@@ -1,4 +1,4 @@
-# boracodar
+# Curso Explorer
 
 Projetos 
 
@@ -17,7 +17,7 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
       <tbody>
         <tr>
           <td>01</td>
-          <td>Movéis Costumizados</td>
+          <td>Movéis Customizados</td>
           <td>14/11/2023</td>
           <td><img src="./_assets/01.jpg" alt=""> </td> 
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/01-ambientes-unicos/">🔗</a></td>
@@ -30,4 +30,10 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/02-treine-me/">🔗</a></td>
         </tr>
       </tbody>
+<<<<<<< HEAD
     </table>
+=======
+    </table>
+
+ 
+>>>>>>> c520ec3f59a227c05d50416b9fd349fbd210b10d
