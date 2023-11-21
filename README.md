@@ -19,21 +19,22 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
           <td>01</td>
           <td>Movéis Customizados</td>
           <td>14/11/2023</td>
-          <td><img src="./_assets/01.jpg" alt=""> </td> 
+          <td><img src="./_preview/01.jpg" alt=""> </td> 
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/01-ambientes-unicos/">🔗</a></td>
-        </tr>
+        </tr> 
         <tr>
           <td>02</td>
           <td>Treine.me</td>
           <td>17/11/2023</td>
-          <td><img src="./_assets/02.jpg" alt=""> </td> 
+          <td><img src="./_preview/02.jpg" alt=""> </td> 
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/02-treine-me/">🔗</a></td>
         </tr>
-      </tbody>
-<<<<<<< HEAD
-    </table>
-=======
-    </table>
+        <tr>
+          <td>03</td>
+          <td>Form</td>
+          <td>21/11/2023</td>
+          <td><img src="./_preview/03.jpg" alt=""> </td> 
+          <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/03-form">🔗</a></td>
+        </tr>
 
- 
->>>>>>> c520ec3f59a227c05d50416b9fd349fbd210b10d
+      </tbody>
