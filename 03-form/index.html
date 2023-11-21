@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,600&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Crie seu Evento</title>
+
+</head> 
+<body>
+    <div class="page"> 
+        <header>
+            <h1>
+                Crie e compartilhe seu evento.
+            </h1>
+            <p>
+                O primeiro passo, é preencher esse formulário de inscrição.
+            </p>
+        </header>
+        <form action=""> 
+            <fieldset> 
+                <div class="fieldset-wrapper"> 
+                    <legend>Informações do Evento</legend>
+                 
+                    <div class="input-wrapper">
+                        <label for="event-label">Título do evento <span>(mínimo 8 caracteres)</span></label>
+                        <input type="text" id="event-title"> 
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-link">Link do evento <span>(comece com https://)</span></label>
+                        <input type="text" id="event-link">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-whatsapp">Whatsapp para contato <span>(somente números)</span></label>
+                        <input type="tel" name="" id="event-whatsapp">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-info">Informações Extras</label>
+                        <textarea name="" id="event-info" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-categorie">Categoria <span> </span></label>
+                         
+                    </div>
+                </div>
+            </fieldset> 
+        </form>
+    </div>
+</body>
+
+</html>
