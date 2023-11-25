@@ -35,6 +35,5 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
           <td>21/11/2023</td>
           <td><img src="./_preview/03.jpg" alt=""> </td> 
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/03-form">🔗</a></td>
-        </tr>
-
+        </tr> 
       </tbody>

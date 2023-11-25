@@ -22,6 +22,8 @@
             </p>
         </header>
         <form action=""> 
+
+            
             <fieldset> 
                 <div class="fieldset-wrapper"> 
                     <legend>Informações do Evento</legend>
@@ -47,12 +49,72 @@
                     </div>
 
                     <div class="input-wrapper">
-                        <label for="event-categorie">Categoria <span> </span></label>
-                         
+                        <label for="event-categorie">Categoria </label>
+                         <select id="event-categorie">
+
+                            <option value="live"> Ao vivo </option>
+                            <option value="posdcast">PodCast</option>
+                            <option value="mentorship">Mentoria</option>
+                         </select>
                     </div>
                 </div>
-            </fieldset> 
+            </fieldset>  
+
+
+
+            <fieldset> 
+                <div class="fieldset-wrapper"> 
+                    <legend>Privacidade</legend> 
+
+                    <div class="input-wrapper">
+                        <label for="event-email">E-mail do administrador <span>(digite um email válido)</span></label>
+                        <input type="email" id="event-email">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-password">Senha de acesso para os participante <span>(mínimo 8 caracteres)</span></label>
+                        <input type="password" id="event-password">
+                    </div>   
+ 
+
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="event-private">
+                        <label for="event-private">Evento privado </label>
+                    </div>  
+
+                </div>
+            </fieldset>
+
+            <fieldset> 
+                <div class="fieldset-wrapper"> 
+                    <legend>Dia e Hora</legend> 
+                    
+                    <div class="col-3">
+                        <div class="input-wrapper"> 
+                            <label for="event-date">Data</label>
+                            <input type="date" name="" id="event-date"> 
+                        </div>    
+                     
+                        <div class="input-wrapper"> 
+                            <label for="event-begin">Das</label>
+                            <input type="time" name="" id="event-begin"> 
+                        </div>    
+
+                        <div class="input-wrapper"> 
+                            <label for="event-end">Até</label>
+                            <input type="time" name="" id="event-end"> 
+                        </div> 
+                    </div>  
+                </div>
+            </fieldset>
+
+            
+
         </form>
+        
+        <footer>
+            <input class="button" type="submit" value="Salvar evento"> 
+        </footer>
     </div>
 </body>
 
