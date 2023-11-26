@@ -240,4 +240,8 @@ footer .button:hover{
     border-radius: 6px;  
 
 }
+
+input:invalid{
+    border:  1px solid #FF1010; 
+}
  
