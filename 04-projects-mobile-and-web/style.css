@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+:root{
+    font-size: 62.5%;  /*10px*/
+}
+
+body{
+    font-size: 1.6rem;
+    background-color:#ECE9FD ; 
+    padding: 6rem 2.3rem 6.6rem;
+    font-family: 'Epilogue', sans-serif;
+}
+main{
+    max-width: 33rem;
+    margin: 0 auto;
+}
+h1{ 
+    font-weight: 800;
+    color: #090039;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+main p:nth-child(1){
+    color:#7158EF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem; /* 200% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 1.7rem;
+}
+
+h1 + p{
+    color:rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+a{
+    color: #090039;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #432fb4;
+    font-weight: bold;
+}
+
+ul{
+    margin-top: 7.2rem;
+}
+
+ul li{
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color:#090039;
+    max-width: 25.7rem;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 3.8rem;
+}
+
+ul + li  {        /*pega todo li e anterior a ele tenha li      <=  se le assim */
+        
+    margin-bottom: 3.2rem;
+}
+
+ul li span{
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8rem;
+    letter-spacing: -2px;
+    color:#090039;
+}
+
+/*media queries*/
+    @media (min-width:700px){
+        body{
+            padding : 8rem; 
+        }
+        main{ 
+            max-width:1200px; 
+            display: flex;/*até esse valor vai ser flex*/
+            gap: 10rem; 
+        }
+
+        main > div{
+            max-width: 484px;  
+        }
+
+        ul li{
+            gap:5.3rem;
+            max-width: 500px;
+            align-items: center;
+        } 
+    }
+
+
+
+  /* @media (min-width:700px){
+    
+    
+
+
+   
+}   */

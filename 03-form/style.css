@@ -28,6 +28,7 @@ body::before{
     width: 736px;
     margin: auto; 
 }
+
 header{   
     width: 319px; 
     margin-top: 74px; 
@@ -88,6 +89,7 @@ fieldset legend{
     margin-bottom: 8px;
     gap: 8px;
 }
+
 .input-wrapper label, 
 .checkbox-wrapper label{
     color: #4E4958;  
