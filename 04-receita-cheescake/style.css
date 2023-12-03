@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root{
+    font-size: 62.5%; 
+    font-family: 'Source Serif Pro', serif; 
+}
+
+body{    
+    background-image: url(./);
+    font-size: 1.6rem;  
+    color: #A54328;
+}
+
+main{ 
+    max-width: 32rem; 
+    margin-inline: auto;
+
+    padding: 5.3rem 3.7rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    gap:3.2rem;
+}   
+
+
+h1, h2{
+    /* camp(min, ideal, alto)*/
+    font-size: clamp(2.83rem, 2vw + 1rem, 4rem);   
+    line-height: clamp(3.2rem,2vw +1rem , 5rem) ;
+    margin-bottom: 3.2rem ; 
+}  
+
+
+
+img{
+    width: 100%; 
+    margin-block: 3.2rem;
+  
+}
+
+p,li, strong{ 
+    font-size: clamp(1.4rem, 1vw + 0.4rem, 2rem);
+    line-height: clamp(1.8rem, 1vw + 0.4rem, 2rem); 
+} 
+
+ul{
+    padding-bottom: 2.4rem; 
+}
+
+ul,ol{
+    padding-left: 2.4rem;
+}
+
+
+button {
+    font-family: "Source Serif 4";
+    background-color: #a54328; 
+
+    line-height: clamp(1.7rem, 2vw + 0.2rem, 2.4rem);  
+    font-size: clamp(0.9rem, 1vw + 0.15rem , 1.4rem);  
+
+    /* line-height: 1.7rem;
+    font-size: .9rem; */
+
+    color: white;
+  
+    border: 0;
+    padding: 0.8rem 1.2rem;
+  
+    border-radius: 0.6rem;
+  
+    margin-top: 3.2rem;
+    cursor: pointer;
+  }
+  
+
+button:hover{
+    background-color:#973317;  
+}
+
+@media(min-width: 1020px){
+    main{ 
+        padding: 9rem 6rem;
+        display: flex;
+        flex-direction: row;
+        max-width: fit-content;
+        gap:16rem;
+    }
+
+    .recipe{
+        max-width: 43.5rem;
+    }
+    .ingredients {
+        max-width: 52.5rem;
+      }
+
+    /* h1, h2{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    p, li, strong{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    } */
+    button{
+        padding: 1rem 2rem;
+        /* font-size: 1.4rem;
+        line-height: 2.4rem; */
+    }
+}
