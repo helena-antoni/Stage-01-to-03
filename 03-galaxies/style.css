@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%; 
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-color: #121214; 
+    color:#E1E1E6;  
+    padding: 7.2rem 10.4rem;
+    margin: 0 auto;
+    font-size: 1.6rem;   
+
+    max-width: 144rem;
+    min-height: 129.3rem;  
+}
+
+header > h1{ 
+    color:#02799D; 
+    font-size: 5.8rem;  
+}
+
+header > p{
+    font-size:3.2rem;
+    font-weight: 600;
+    margin-bottom: 6rem; 
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* column-gap: 6rem;
+    row-gap:4.8rem; */
+    gap: 4.8rem 6rem;
+} 
+ 
+.card{    
+    background-color: #202024;
+    border:2px solid #323238;  
+
+    border-radius: .8rem; 
+    overflow: hidden;
+} 
+
+.card .card-text{ 
+    padding: 2.4rem 3.2rem 3.2rem;
+     
+}
+ .card .card-text > h1{
+    font-weight: 900;
+    font-size: 3.6rem; 
+}
+ .card .card-text > p{
+    font-size: 1.9rem; 
+    font-weight: 600;
+}
