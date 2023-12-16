@@ -125,22 +125,36 @@ main h1{
 
 .item{
     border-radius: .8rem;
+    background-color: var(--color-base-white); 
+    overflow: hidden;
 }
 
 .item img{ 
-    width: 390px;
-    height: 194px;
+    width: 100%;
+    aspect-ratio: 16/9;
     object-fit: cover;
+
 } 
 
-
-/*Footer*/
-footer{
-    text-align: center;
+ .details{
+    padding: 2.2rem;
 }
 
+.tags{
+    margin-top:1.2rem;
+}
 
-footer{
+.tags span{
+    padding: .6rem;
+    background-color: var(--color-base-gray-100);
+    border-radius: .4rem;
+    line-height: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/*Footer*/  
+footer h1{
     text-align: center;
     padding: 1.6rem;
     font-weight: 600;
