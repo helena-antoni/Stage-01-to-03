@@ -37,6 +37,20 @@ Acesse meu repositório no Curso Explorer [Clique Aqui ](https://github.com/hele
           <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/03-form">🔗</a></td>
         </tr> 
         <tr>
+          <td>03-2</td>
+          <td>Site Responsivo</td>
+          <td>01/12/2023</td>
+          <td><img src="./_preview/04-responsive.jpg" alt=""> </td> 
+          <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/04-projects-mobile-and-web/">🔗</a></td>
+        </tr>  
+        <tr>
+          <td>04</td>
+          <td>Site Responsivo</td>
+          <td>01/12/2023</td>
+          <td><img src="./_preview/04-responsive.jpg" alt=""> </td> 
+          <td><a target="_blank" href="https://helena-antoni.github.io/curso-explorer/04-projects-mobile-and-web/">🔗</a></td>
+        </tr> 
+        <tr>
           <td>04</td>
           <td>Site Responsivo</td>
           <td>01/12/2023</td>
